@@ -44,14 +44,15 @@ This application demonstrates the following concepts and how to implement them:
 ## Getting Started
 
 ### Prerequisites
+- **Note**: On macOS, you will also need [homebrew](https://brew.sh/) to install the Azure CLI and the light-weight JSON processor [jq](https://formulae.brew.sh/formula/jq).
 
-- Azure subscription. [Start free](https://azure.microsoft.com/free)
+- An Azure subscription. [Start free](https://azure.microsoft.com/free)
 - Subscription access to Azure OpenAI service. Start here to [Request Access to Azure OpenAI Service](https://aka.ms/oaiapply). If you have access, see below for ensuring enough quota to deploy.
 - Enroll in the [Azure Cosmos DB for NoSQL Vector Search Preview](https://learn.microsoft.com/azure/cosmos-db/nosql/vector-search#enroll-in-the-vector-search-preview-feature) (See below for more details)
 - .NET 8 or above. [Download](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Azure Developer CLI](https://aka.ms/azd-install)
 - Visual Studio, VS Code, GitHub Codespaces or another editor to edit or view the source for this sample.
-- **Note**: On macOS, you will also need [homebrew](https://brew.sh/) to install the Azure CLI and the light-weight JSON processor [jq](https://formulae.brew.sh/formula/jq).
+
 
     #### Vector search Preview details
     This lab utilizes a preview feature, **Vector search for Azure Cosmos DB for NoSQL** which requires preview feature registration. Follow the below steps to register. You must be enrolled before you can deploy this solution:
