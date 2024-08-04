@@ -51,7 +51,7 @@ This application demonstrates the following concepts and how to implement them:
 - .NET 8 or above. [Download](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Azure Developer CLI](https://aka.ms/azd-install)
 - Visual Studio, VS Code, GitHub Codespaces or another editor to edit or view the source for this sample.
-
+- **Note**: On macOS, you will also need [homebrew](https://brew.sh/) to install the Azure CLI and the light-weight JSON processor [jq](https://formulae.brew.sh/formula/jq).
 
     #### Vector search Preview details
     This lab utilizes a preview feature, **Vector search for Azure Cosmos DB for NoSQL** which requires preview feature registration. Follow the below steps to register. You must be enrolled before you can deploy this solution:
